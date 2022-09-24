@@ -27,7 +27,7 @@ public class Main {
 			System.out.println(delta);
 		}
 		else {
-			System.out.println("Inválido");
+			System.out.println("Inválido!! Pois o delta é negativo");
 		}
 		
 	}
