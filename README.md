@@ -1,11 +1,14 @@
 ## Trabalho 02 - POO Java
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/laraagr1/T2_POO_2022.2)
+![GitHub language count](https://img.shields.io/github/languages/count/laraagr1/T2_POO_2022.2)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/laraagr1/T2_POO_2022.2)
 
 ### Informações:
 - Este repositório contém questões em meu segundo trabalho na disciplina de POO Java do meu curso de Técnico em Informática no IFCE Campus Fortaleza!
-- Contribuidor: [Erick Gomes](https://github.com/erickgms01)
+- Minha dupla: [Erick Gomes](https://github.com/erickgms01)
 
 <div align="center">
-  <img height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+  <img height="70" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 </div>
 
 ### Descrição da Lista
@@ -21,6 +24,3 @@
 |[08]|
 |[09]|
 |[10]|
-<div align="center">
-  <img height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-</div>
