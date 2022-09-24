@@ -15,10 +15,10 @@ public class Main {
 		try {
 			num1 = Integer.parseInt(n1);
 			if (num1 % 2 == 0) {
-				System.out.println("O número " + n1 + "é par!");
+				System.out.println("O número " + n1 + " é par!");
 			}
 			else if(num1 % 2 != 0) {
-				System.out.println("O número " + n1 + "é ímpar!");
+				System.out.println("O número " + n1 + " é ímpar!");
 			}
 			else {
 				System.out.println("Opção Inválida");
