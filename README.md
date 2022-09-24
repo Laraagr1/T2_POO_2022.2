@@ -4,6 +4,10 @@
 - Este repositório contém questões em meu segundo trabalho na disciplina de POO Java do meu curso de Técnico em Informática no IFCE Campus Fortaleza!
 - Contribuidor: [Erick Gomes](https://github.com/erickgms01)
 
+<div align="center">
+  <img height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+</div>
+
 ### Descrição da Lista
 | Questões | Descrição |
 | ------------- |:-------------|
@@ -18,6 +22,5 @@
 |[09]|
 |[10]|
 <div align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> 
   <img height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 </div>
