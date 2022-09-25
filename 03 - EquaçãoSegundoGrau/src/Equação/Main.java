@@ -1,25 +1,22 @@
 package Equação;
 
 import java.util.Scanner;
-
 import cores.Cores;
 
 public class Main {
 
-
 	public static void main(String[] args) {
 		double a = 0, b, c, delta, x1, x2;
 		
-		Cores cores = new Cores();
 		Scanner sc = new Scanner(System.in);
 		
 		while (a == 0) {
-			System.out.print(Cores.BLUE + "Digite o valor de a: " + Cores.RESET);
+			System.out.print(Cores.YELLOW + "Digite o valor de" + Cores.RESET + Cores.RED + " a: " + Cores.RESET);
 			a = sc.nextDouble();
 		}
-		System.out.print("Digite o valor de b: ");
+		System.out.print(Cores.YELLOW + "Digite o valor de" + Cores.RESET + Cores.GREEN + " b: " + Cores.RESET);
 		b = sc.nextDouble();
-		System.out.print("Digite o valor de b: ");
+		System.out.print(Cores.YELLOW + "Digite o valor de" + Cores.RESET + Cores.BLUE + " c: " + Cores.RESET);
 		c = sc.nextDouble();
 
 		delta = Math.pow(b, 2) - (4*a) * c;
@@ -32,7 +29,7 @@ public class Main {
 			System.out.println(delta);
 		}
 		else {
-			System.out.println("Inválido!! Pois o delta é negativo");
+			System.out.println(Cores.RED_BOLD + "\nInválido!!\nPois o delta é negativo" + Cores.RESET);
 		}
 		
 	}
