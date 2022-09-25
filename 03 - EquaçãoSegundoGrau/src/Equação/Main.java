@@ -1,15 +1,20 @@
 package Equação;
 
-import java.util.Scanner; 
+import java.util.Scanner;
+
+import cores.Cores;
 
 public class Main {
+
 
 	public static void main(String[] args) {
 		double a = 0, b, c, delta, x1, x2;
 		
+		Cores cores = new Cores();
 		Scanner sc = new Scanner(System.in);
+		
 		while (a == 0) {
-			System.out.print("Digite o valor de a: ");
+			System.out.print(Cores.BLUE + "Digite o valor de a: " + Cores.RESET);
 			a = sc.nextDouble();
 		}
 		System.out.print("Digite o valor de b: ");
