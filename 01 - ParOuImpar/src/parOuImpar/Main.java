@@ -8,7 +8,7 @@ public class Main {
 		//Programa que verifica se um número inteiro é ímpar ou par
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Programa que verifica se um n�mero inteiro é ímpar ou par\n");
+		System.out.println("Programa que verifica se um número inteiro é ímpar ou par\n");
 		System.out.println("Digite um número: ");
 		String n1 = sc.next();
 		int num1;
