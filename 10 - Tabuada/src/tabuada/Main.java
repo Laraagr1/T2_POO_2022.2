@@ -10,7 +10,7 @@ public class Main {
 		String formatadoresR = "--=--=--=--=--=||";
 		String formatting = "||=--=--=--=--=--=--=--=--=--=--=--=--=--=--||";
 		String spaceL = "||                ";
-		String spaceR = "              ";
+		String spaceR = "                ";
 		String barra = "||";
 		String tabuadaT = "tabuada do ";
 		
