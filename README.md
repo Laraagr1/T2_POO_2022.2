@@ -1,9 +1,9 @@
-## Work 02 - POO Java
+# Work 02 - POO Java
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/laraagr1/T2_POO_2022.2)
 ![GitHub language count](https://img.shields.io/github/languages/count/laraagr1/T2_POO_2022.2)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/laraagr1/T2_POO_2022.2)
 
-### Information of project:
+## Information of project:
 - This repository contains questions in my second work in the Java OOP discipline of my Computer Technician course at IFCE Campus Fortaleza!
 - My Duo: [Erick Gomes](https://github.com/erickgms01)
 
@@ -26,10 +26,10 @@
 |[10](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/10%20-%20Tabuada)|Write the multiplication table from 1 to 10.|
 
 - - -
-# Difficulties Faced
-- [Issue 10](https://github.com/Laraagr1/T2_POO_2022.2/commit/6180e76fc25b962021e7596c5527f06a24b70209)
+### Difficulties Faced
+- [Issue 10](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/10%20-%20Tabuada)
    ```java:
-  pakage tabuada;
+  package tabuada;
 
   import java.util.Scanner;
   import cores.Cores;
@@ -46,8 +46,21 @@
             System.out.println();}
        }
   } 
-- - -
+- Result:
+
+  ![ps_CodeTable](https://user-images.githubusercontent.com/110913912/192514534-d2c115db-9c77-4ed3-85f1-aed6f7106ce9.png)
+
+
+- - - 
 This code looks complete and completely functional, yes it was, but I faced a surreal formatting error, which gave me a little headache, but I managed to solve it, putting the Strings inside variables, and using repetition structures to see if they were from the size I wanted and then filtering them, to come out as I wanted.
 I think it was the only difficulty I had in the entire code!
 - - -
+
+- Fixed: 
+
+  ![ps_CodeTableFixed](https://user-images.githubusercontent.com/110913912/192514865-ec55c3a5-2e66-4f2a-9a32-a9833fa526ab.png)
+
+  - Now, looks great :D 
+- - -
+
 
