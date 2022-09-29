@@ -28,6 +28,10 @@
 - - -
 ### Difficulties Faced
 - [Issue 10](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/10%20-%20Tabuada)
+
+  This code looks complete and completely functional, yes it was, but I faced a surreal formatting error, which gave me a little headache, but I managed to solve it,     putting the Strings inside variables, and using repetition structures to see if they were from the size I wanted and then filtering them, to come out as I wanted.
+  I think it was the only difficulty I had in the entire code!
+- - -
    ```java:
   package tabuada;
 
@@ -46,15 +50,15 @@
             System.out.println();}
        }
   } 
+  ```
+- - -
 - Result:
 
   ![ps_CodeTable](https://user-images.githubusercontent.com/110913912/192514534-d2c115db-9c77-4ed3-85f1-aed6f7106ce9.png)
 
 
 - - - 
-This code looks complete and completely functional, yes it was, but I faced a surreal formatting error, which gave me a little headache, but I managed to solve it, putting the Strings inside variables, and using repetition structures to see if they were from the size I wanted and then filtering them, to come out as I wanted.
-I think it was the only difficulty I had in the entire code!
-- - -
+
 
 - Fixed: 
 
