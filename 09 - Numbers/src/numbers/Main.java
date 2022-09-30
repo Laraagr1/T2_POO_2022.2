@@ -47,15 +47,15 @@ public class Main {
 				else {
 					medP = sumP / countP;
 				}
-				
+				Arrays.sort(nums);
 				porc = countI * 100 / tmnR;//Percentage of the odd numbers
 				
 				System.out.println("\n--=--=--=--=--=--=--=--Seção Respostas--=--=--=--=--=--=--=--");
 				System.out.println("A soma dos números é: " + sum);
 				System.out.println("Você digitou " + tmn + " números!");
 				System.out.format("A média de todos os número é: %.2f!",med);
-				System.out.println("\nO maior número é: " + nums[tmnR - 1]);
-				System.out.println("O menor número é: " + nums[0]);
+				System.out.println("\nO menor número é: " + nums[]);
+				System.out.println("O maior número é: " + nums[tmnR - 1]);
 				System.out.format("A média de números pares é: %.2f", medP);
 				System.out.println("\nA porcentagem de números ímpares entre os números é: " + porc);
 			}catch(NumberFormatException e){
