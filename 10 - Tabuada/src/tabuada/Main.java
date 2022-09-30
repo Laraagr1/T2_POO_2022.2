@@ -1,6 +1,5 @@
 package tabuada;
 
-import java.util.Scanner;
 import cores.Cores;
 
 public class Main {
