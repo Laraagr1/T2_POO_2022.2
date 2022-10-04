@@ -1,7 +1,8 @@
 package secondDegreeEquation;
 
 import java.util.Scanner;
-import cores.Cores;
+
+import color.Colors;
 
 public class Utils {
 	double a = 0, b, c;
@@ -13,12 +14,12 @@ public class Utils {
 	public void input() {
 		a = 0; 
 		while (a == 0) {
-			System.out.print(Cores.YELLOW + "\nEnter a value of" + Cores.RESET + Cores.RED + " a: " + Cores.RESET);
+			System.out.print(Colors.YELLOW + "\nEnter a value of" + Colors.RESET + Colors.RED + " a: " + Colors.RESET);
 			a = sc.nextDouble();
 		}
-		System.out.print(Cores.YELLOW + "Enter a value of" + Cores.RESET + Cores.GREEN + " b: " + Cores.RESET);
+		System.out.print(Colors.YELLOW + "Enter a value of" + Colors.RESET + Colors.GREEN + " b: " + Colors.RESET);
 		b = sc.nextDouble();
-		System.out.print(Cores.YELLOW + "Enter a value of" + Cores.RESET + Cores.BLUE + " c: " + Cores.RESET);
+		System.out.print(Colors.YELLOW + "Enter a value of" + Colors.RESET + Colors.BLUE + " c: " + Colors.RESET);
 		c = sc.nextDouble();
 	}
 	public void Calcdelta(){
@@ -27,12 +28,12 @@ public class Utils {
 			x1 = (-b + Math.sqrt(delta)) / (2 * a);
 			x2 = (-b - Math.sqrt(delta)) / (2 * a);
 			
-			System.out.format(Cores.YELLOW + "\nThe value of x1 is: " + Cores.RESET + Cores.PURPLE_UNDERLINED + "%.2f" + Cores.RESET, x1);
-			System.out.format(Cores.YELLOW + "\nThe value of x2 is: " + Cores.RESET + Cores.PURPLE_UNDERLINED + "%.2f" + Cores.RESET, x2);
-			System.out.format(Cores.YELLOW + "\nThe value of delta is :" + Cores.RESET + Cores.PURPLE_UNDERLINED + "%.2f\n" + Cores.RESET, delta);
+			System.out.format(Colors.YELLOW + "\nThe value of x1 is: " + Colors.RESET + Colors.PURPLE_UNDERLINED + "%.2f" + Colors.RESET, x1);
+			System.out.format(Colors.YELLOW + "\nThe value of x2 is: " + Colors.RESET + Colors.PURPLE_UNDERLINED + "%.2f" + Colors.RESET, x2);
+			System.out.format(Colors.YELLOW + "\nThe value of delta is :" + Colors.RESET + Colors.PURPLE_UNDERLINED + "%.2f\n" + Colors.RESET, delta);
 		}
 		else {
-			System.out.println(Cores.RED_BOLD + "\nThis equation has no real roots\nBecause the delta is negative" + Cores.RESET);
+			System.out.println(Colors.RED_BOLD + "\nThis equation has no real roots\nBecause the delta is negative" + Colors.RESET);
 		}
 	}
 	public void repeat() {
@@ -41,7 +42,7 @@ public class Utils {
 		switch (x) {
 		case 1:
 			break;
-		case 2: 
+		case 0: 
 			System.out.println("Thanks to enjoy my code :D");
 			x = 0;
 			break;

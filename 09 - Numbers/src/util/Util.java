@@ -21,7 +21,6 @@ public class Util {
 		System.out.println(Colors.RED_BOLD + "ERROR!!" + Colors.RESET);
 		System.out.println("This is not a number or this is a real number!!");
 	}
-		
 	public void input(){
 		System.out.print("How many numbers you would like to enter?\nAnswer: ");
 		tmn = sc.next();
@@ -38,6 +37,7 @@ public class Util {
 		}catch(NumberFormatException e){
 			error();	
 		}
+		
 	}
 	public void sumEvenNumbers(){
 		for (int i = 0;i < tmnR; i++) {		
@@ -49,9 +49,10 @@ public class Util {
 			else {
 				countI++;
 			}
+			
 		}
+		
 	}
-
 	public void medEvenNumbers() {
 		//If the user doesn't enter any even numbers
 		if (countP == 0) {
@@ -72,8 +73,8 @@ public class Util {
 		System.out.println("You type " + ansColorY + tmn + Colors.RESET + " numbers!");
 		System.out.format("The avarage of all of them is: " + ansColorY + " %.2f!" + Colors.RESET,med);
 		System.out.println("\nThe Smallest of them is: " + ansColorY +  + nums[0] + Colors.RESET);
-		System.out.println("O maior número é: "+ ansColorY +  + nums[tmnR - 1] + Colors.RESET);
-		System.out.format("A média de números pares é: " +  ansColorY +  "%.2f" + Colors.RESET, medP);
+		System.out.println("The biggest number is: "+ ansColorY +  + nums[tmnR - 1] + Colors.RESET);
+		System.out.format("The avarage of even numbers is: " +  ansColorY +  "%.2f" + Colors.RESET, medP);
 		System.out.println("\nThe percentage of odd numbers is: " + ansColorY + porc + Colors.RESET);
 	}
 	public void repeat() {
@@ -89,11 +90,12 @@ public class Util {
 			}
 			else {
 				System.out.println("Invalid Option");
-				this.repeat();
+				repeat();
 			}
 			
 		}catch(NumberFormatException e) {
 			error();
+			repeat();
 		}
 		
 	}
