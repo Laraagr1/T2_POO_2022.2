@@ -1,6 +1,6 @@
 package tabuada;
 
-import cores.Cores;
+import color.Colors;
 
 public class Main {
 
@@ -15,13 +15,13 @@ public class Main {
 		
 		for (int i = 1;i <= 10; i++) {
 			//Verificando se essa string é maior que 49 que é o excede a formatação 
-			if (Cores.BLACK.length() + Cores.WHITE_BACKGROUND.length() + formatadoresL.length() + Cores.BLUE.length() + Cores.WHITE_BACKGROUND.length() + tabuadaT.length() + i + Cores.RESET.length() + Cores.BLACK.length() + Cores.WHITE_BACKGROUND.length() + formatadoresR.length() == 95) {
+			if (Colors.BLACK.length() + Colors.WHITE_BACKGROUND.length() + formatadoresL.length() + Colors.BLUE.length() + Colors.WHITE_BACKGROUND.length() + tabuadaT.length() + i + Colors.RESET.length() + Colors.BLACK.length() + Colors.WHITE_BACKGROUND.length() + formatadoresR.length() == 95) {
 				formatadoresR = "--=--=--=--=--||";
-				System.out.println(Cores.BLACK + Cores.WHITE_BACKGROUND + formatadoresL + Cores.BLUE + Cores.WHITE_BACKGROUND + "Tabuada do " + i + Cores.RESET + Cores.BLACK + Cores.WHITE_BACKGROUND + formatadoresR);
+				System.out.println(Colors.BLACK + Colors.WHITE_BACKGROUND + formatadoresL + Colors.BLUE + Colors.WHITE_BACKGROUND + "Tabuada do " + i + Colors.RESET + Colors.BLACK + Colors.WHITE_BACKGROUND + formatadoresR);
 				formatadoresR = "--=--=--=--=--=||";
 			}
 			else {
-				System.out.println(Cores.BLACK + Cores.WHITE_BACKGROUND + formatadoresL + Cores.BLUE + Cores.WHITE_BACKGROUND + "Tabuada do " + i + Cores.RESET + Cores.BLACK + Cores.WHITE_BACKGROUND + formatadoresR);
+				System.out.println(Colors.BLACK + Colors.WHITE_BACKGROUND + formatadoresL + Colors.BLUE + Colors.WHITE_BACKGROUND + "Tabuada do " + i + Colors.RESET + Colors.BLACK + Colors.WHITE_BACKGROUND + formatadoresR);
 			}
 			for(int j = 1; j <= 10;j++) {
 				String tab = (spaceL + i + " x " + j + " = " + j*i);
@@ -55,7 +55,7 @@ public class Main {
 					
 				}
 			}
-			System.out.println(formatting + Cores.RESET );
+			System.out.println(formatting + Colors.RESET );
 		}
 
 	}

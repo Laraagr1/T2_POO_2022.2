@@ -1,11 +1,9 @@
 package main;
 
-import java.awt.Color;
 import java.util.Scanner;
 
-import cores.Cores;
-
-
+import color.Colors;
+	
 public class Main {
 	
 	public static void main(String[] args) {
@@ -16,66 +14,66 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		do {
-			System.out.println("\n" + Cores.BLUE +"O que deseja?" + Cores.RESET + "\n"
-					+ "[1]Somar dois números\n"
-					+ "[2]Raiz quadrada de um número");
-			System.out.print("\nResposta: ");
+			System.out.println("\n" + Colors.BLUE +"What do you want?" + Colors.RESET + "\n"
+					+ "[1]Sum 2 numbers\n"
+					+ "[2]Square Root of one number");
+			System.out.print("\nAnswer: ");
 			user = sc.next();
 			try {
 				userR = Integer.parseInt(user);
 				if (userR == 1) {
-					System.out.print("\nDigite o "+ Cores.WHITE_UNDERLINED + "1°" + Cores.RESET + " número: ");
+					System.out.print("\nEnter a "+ Colors.WHITE_UNDERLINED + "1°" + Colors.RESET + " number: ");
 					n1 = sc.next();
-					System.out.print("Digite o "+ Cores.WHITE_UNDERLINED +  "2°" + Cores.RESET + " número: ");
+					System.out.print("Enter a "+ Colors.WHITE_UNDERLINED +  "2°" + Colors.RESET + " number : ");
 					n2 = sc.next();
 					try {
 						nr1 = Double.parseDouble(n1);
 						nr2 = Double.parseDouble(n2);
 						sum = nr1 + nr2;
-						System.out.println("A soma é: " + Cores.YELLOW + Cores.YELLOW_UNDERLINED + sum + Cores.RESET);
+						System.out.println("The sum is: " + Colors.YELLOW + Colors.YELLOW_UNDERLINED + sum + Colors.RESET);
 					}catch(NumberFormatException e) {
-						System.out.println(Cores.RED_BOLD + "ERROR!!\n" + Cores.RESET + "Isso não é um número!");
+						System.out.println(Colors.RED_BOLD + "ERROR!!\n" + Colors.RESET + "This is not a number or this is a real number!");
 					}
 		
 				}
 				else if(userR == 2) {
-					System.out.print("\nDigite o número: ");
+					System.out.print("\nEnter a number: ");
 					n1 = sc.next();
 					
 					try {
 						nr1 = Double.parseDouble(n1);
 						sqrt = Math.sqrt(nr1);			
-						System.out.format("A raiz quadrada de " + n1 + " é: " + Cores.YELLOW + Cores.YELLOW_UNDERLINED + "%.2f" + Cores.RESET, sqrt);
+						System.out.format("The square root of " + n1 + " is: " + Colors.YELLOW + Colors.YELLOW_UNDERLINED + "%.2f" + Colors.RESET, sqrt);
 					}catch(NumberFormatException e) {
-						System.out.println(Cores.RED_BOLD + "ERROR!!\n" + Cores.RESET + "Isso não é um número");
+						System.out.println(Colors.RED_BOLD + "ERROR!!\n" + Colors.RESET + "This is not a number or this is a real number!");
 					}
 					
 				}
 				else {
-					System.out.println(Cores.RED_BOLD + "ERROR!!\n" + Cores.RESET + "Opção Inváliada!");
+					System.out.println(Colors.RED_BOLD + "ERROR!!\n" + Colors.RESET + "Invalid Option!!");
 				}
-				System.out.print("\n\nVoltar ao início?\n"
-				+ "[1]SIM\n"
-				+ "[0]NÃO\n"
-				+ "Resposta: ");
+				System.out.print("\n\nCome back?\n"
+				+ "[1]Yes\n"
+				+ "[0]No\n"
+				+ "Answer: ");
 				y = sc.next();
 				try { 
 					yr = Double.parseDouble(y);
 					if (yr == 0 || yr == 1) {
 						if (yr == 0) {
-							System.out.println(Cores.BLUE + "Obrigado por utilizar o código!" + Cores.RESET);
+							System.out.println(Colors.BLUE + "Thanks for enjoy the code :D" + Colors.RESET);
 							x = 0;
 						}
 					}
 					else {
-						System.out.println(Cores.RED_BOLD + "ERROR!!\n" + Cores.RESET + "Opção invalida");
+						System.out.println(Colors.RED_BOLD + "ERROR!!\n" + Colors.RESET + "Opção invalida");
 					}
 				}catch(NumberFormatException e){
-					System.out.println(Cores.RED_BOLD + "ERROR!!\n" + Cores.RESET + "Opção inválida! Isso não é um número!");
+					System.out.println(Colors.RED_BOLD + "ERROR!!\n" + Colors.RESET + "This is not a number or this is a real number!");
 				}
 				
 			}catch(NumberFormatException e) {
-				System.out.println(Cores.RED_BOLD + "ERROR!!\n" + Cores.RESET + "Isso não é um número ou é um número real!");
+				System.out.println(Colors.RED_BOLD + "ERROR!!\n" + Colors.RESET + "This is not a number or this is a real number!");
 			}
 			
 		}while(x == 1);	
