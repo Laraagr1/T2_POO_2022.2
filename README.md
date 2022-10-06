@@ -3,8 +3,8 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/laraagr1/T2_POO_2022.2)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/laraagr1/T2_POO_2022.2)
 
-## Information of project:
-- This repository contains questions in my second work in the Java OOP discipline of my Computer Technician course at IFCE Campus Fortaleza!
+## Information of project
+- This repository contains questions from my second work in the Java OOP course taught by Professor [Roger Moura](https://github.com/rogermsarmento) from my Computer Technician course at IFCE Campus Fortaleza!
 - My Duo: [Erick Gomes](https://github.com/erickgms01)
 
 <div align="center">
