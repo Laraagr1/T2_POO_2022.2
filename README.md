@@ -19,7 +19,7 @@
 |[03](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/03%20-%20Equa%C3%A7%C3%A3oSegundoGrau)|This code solves a quadratic equation.|
 |[04](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/04%20-%20DataHora)|This code takes day/month/year and Hour:Min:Sec from the user's machine, and displays them.|
 |[05](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|
-|[06](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|
+|[06](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|This code checks if a number entered by the user is prime.|
 |[07](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|
 |[08](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|
 |[09](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/09%20-%20Numbers)|Collect x amount of numbers from the user and display it: their average, average only of evens, largest of them, smallest and the percentage of odd numbers that the user entered.|
