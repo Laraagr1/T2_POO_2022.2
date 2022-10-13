@@ -14,7 +14,7 @@
 ### Descriptions of issues
 | Issues | Description |
 | ------------- |:-------------|
-|[01](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/01%20-%20ParOuImpar)|Write a code that receives a user number and returns if it is odd or even.|
+|[01](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/01%20-%20ParOuImpar)|This code checks if a number entered by the user is odd or even.|
 |[02](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/02%20-%20Op%C3%A7%C3%B5es)|Make an options menu where, where the user has the option of adding two numbers or taking the square root of another number.|
 |[03](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/03%20-%20Equa%C3%A7%C3%A3oSegundoGrau)|This code solves a quadratic equation.|
 |[04](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/04%20-%20DataHora)|This code takes day/month/year and Hour:Min:Sec from the user's machine, and displays them.|
