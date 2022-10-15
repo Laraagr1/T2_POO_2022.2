@@ -21,7 +21,7 @@
 |[05](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|
 |[06](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|This code checks if a number entered by the user is prime.|
 |[07](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|
-|[08](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|
+|[08](https://github.com/Laraagr1/T2_POO_2022.2/blob/main/issuedoentdid/issuedosentdid.md)|Program that shows a menu of options, allows the user to choose the desired option, receives the necessary data and executes and shows the result of the operation made based on his salary.|
 |[09](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/09%20-%20Numbers)|Collect x amount of numbers from the user and display it: their average, average only of evens, largest of them, smallest and the percentage of odd numbers that the user entered.|
 |[10](https://github.com/Laraagr1/T2_POO_2022.2/tree/main/10%20-%20Tabuada)|Write the multiplication table from 1 to 10.|
 
