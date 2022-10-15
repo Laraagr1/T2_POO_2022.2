@@ -2,19 +2,21 @@ package utilidades;
 
 import java.util.Scanner;
 
+import color.Colors;
+
 public class Util {
-	int num1;
-	String n1;
-	String controlVar;
+	public int num1;
+	public String n1;
+	public String controlVar;
 	public int controlVarReal = 1;
 	Scanner sc = new Scanner(System.in);
 
 	public void title() {
-		System.out.println("Programa que verifica se um número inteiro é ímpar ou par\n");
+		System.out.println("Program that checks whether an integer is odd or even");
 	}
 
 	public void input() {
-		System.out.println("\nDigite um número: ");
+		System.out.print("\nEnter a number: ");
 		n1 = sc.next();
 	}
 
@@ -22,38 +24,40 @@ public class Util {
 		try {
 			num1 = Integer.parseInt(n1);
 			if (num1 % 2 == 0) {
-				System.out.println("O número " + n1 + " é par!");
-			} else {
-				System.out.println("O número " + n1 + " é ímpar!");
+				System.out.println("The number " + n1 + " is even!");
+			} 
+			else {
+				System.out.println("The number " + n1 + " is odd!");
 			}
 		} catch (NumberFormatException e) {
-			System.out.println("\nIsso não é um inteiro!");
+			error();
 			input();
 		}
 	}
 
 	public void repeat() {
-		System.out.print("\nQuer continuar?\n[1]Sim\n[0]Não\nResposta: ");
+		System.out.println("\nDo you want back to start?\n[1]Yes\n[0]No");
 		controlVar = sc.next();
 		try {
-			int controlVarReal = Integer.parseInt(controlVar);
-			switch (controlVarReal) {
-			case 1:
-				break;
-			case 0:
-				System.out.println("Obrigado por curtir o código :D");
-				controlVarReal = 0;
-				break;
-			default:
-				System.out.println("Inválido!");
-				controlVarReal = 1;
+			controlVarReal = Integer.parseInt(controlVar);
+			if (controlVarReal == 1) {
+
+			} else if (controlVarReal == 0) {
+				System.out.println("\nThanks for enjoy the code :D!\n");
+			} else {
+				System.out.println("Invalid Option");
 				repeat();
 			}
+
 		} catch (NumberFormatException e) {
-			System.out.println("Isso não é um número ou não é um numero inteiro!");
+			error();
 			repeat();
 		}
 
+	}
+
+	public void error() {
+		System.out.print(Colors.RED_BOLD + "\nERROR!!\n" + Colors.RESET + "This is not a number or this is a real number!\n");
 	}
 
 }
