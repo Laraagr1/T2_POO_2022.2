@@ -9,7 +9,6 @@ public class Main {
 		util.title();
 		do {
 			util.inputUser();
-			util.isPrime();
 			util.repeat();
 		} while (util.controlVarReal == 1);
 

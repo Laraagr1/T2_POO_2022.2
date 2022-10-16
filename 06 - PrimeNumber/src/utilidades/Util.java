@@ -2,8 +2,11 @@ package utilidades;
 
 import java.util.Scanner;
 
+import color.Colors;
+
 public class Util {
-	int n;
+	String num;
+	int numR = 0;
 	boolean prime;
 	String controlVar;
 	public int controlVarReal;
@@ -14,29 +17,47 @@ public class Util {
 	}
 
 	public void inputUser() {
-		System.out.println("Enter a number greater than or equal to 1: ");
+		System.out.print("Enter a number: ");
+		num = sc.next();
+		try {
+			numR = Integer.parseInt(num);
+			if (numR >= 2) {
+				isPrime();
+			}
+			else if( numR == 1) {
+				System.out.println("\nO número 1 não é primo!\n");
+				inputUser();
+			}
+			else { 
+				error();
+				inputUser();
+
+			}
+		} catch (NumberFormatException e) {
+			error();
+			inputUser();
+		}
+
 	}
 
 	public void isPrime() {
 		try {
-			n = 0;
-			while (n < 1) {
-				n = sc.nextInt();
-			}
+
 			prime = true;
-			for (int i = 2; i < n; i++) {
-				if (n % i == 0) {
+			for (int i = 2; i < numR; i++) {
+				if (numR % i == 0) {
 					prime = false;
-				}
-				else if (n == 1) {
+				} else if (numR == 1) {
 					prime = false;
 				}
 			}
-			if (prime) {
-				System.out.println("The number " + n + " is prime!");
-			} 
-			else {
-				System.out.println("The number " + n + " isn't prime!");
+			if (numR < 2) {
+				System.out.println("1 isn't prime!!");
+			}
+			else if (prime) {
+				System.out.println("The number " + num + " is prime!");
+			} else {
+				System.out.println("The number " + num + " isn't prime!");
 			}
 		} catch (Exception e) {
 			System.out.println("This is not an integer number!");
@@ -66,5 +87,8 @@ public class Util {
 			repeat();
 		}
 
+	}
+	public void error() {
+		System.out.println(Colors.RED_BOLD + "\nERROR!!\n" + Colors.RESET + "This is not a number or this is a real number!\n");
 	}
 }
