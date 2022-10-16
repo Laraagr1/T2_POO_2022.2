@@ -1,6 +1,6 @@
 package main;
 
-import util.Util;
+import utilidades.Util;
 
 public class Main {
 
