@@ -1,4 +1,4 @@
-package tabuada;
+package table;
 
 import util.Util;
 
